@@ -72,7 +72,7 @@ of the circle should indicate a high scalar value compared to the false positive
 This approach is experimented to be a computationally efficient alternative to
 General Hough Transform(GHT) to compare curvature values to each other or
 calculating the gradient like an edge detection operation. GHT usage would have assumed the highest curvature value obtained in a detected circle to be selected as knee or hip respectively. Usage of an accumulator array in that scenario is both computationally costly and prone to small mistakes that may occur in the edge detection part.  Below image
-visualizes the scalar value comparison operation of this function:
+visualizes the scalar value comparison operation of this function:  
 ![image1](/example-images/clear-overlaps.png)
 (Blue numbers are the scalar values obtained for each circle)
 This approach yielded better results when used with different channels of the
