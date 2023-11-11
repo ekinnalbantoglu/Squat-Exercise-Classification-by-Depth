@@ -1,4 +1,4 @@
-# Squad-Exercise-Classification-by-Depth
+# Squat-Exercise-Classification-by-Depth
 EE417 Computer Vision Term Project 
 ### Functions
 ##### 1) opticalFlow_main.m
